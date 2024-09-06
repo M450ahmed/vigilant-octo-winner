@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-----------flaticon-->
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
+  <link href="/https://cdn-uicons.flaticon.com/css/uicons-rounded-regular.css" rel="stylesheet">
+  <link href="/https://cdn-uicons.flaticon.com/css/uicons-rounded-bold.css" rel="stylesheet">
+  <link href="/https://cdn-uicons.flaticon.com/css/uicons-rounded-solid.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+  <!-- - - swiper css-->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+  
+  <title>Market</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Include lazysizes library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.0/lazysizes.min.js" async></script>
+</head>
+
+<body>
+  <!--  preloader  -->
+  <div class="load">
+    <div id="preloader"></div>
+  </div>
+  <!--header---->
+  <header class="header">
+    <div class="header-top">
+     <div class="header-container container">
+       <div class="header-contact">
+         <span>(+9647809314498)</span>
+         <span> Our location</span>
+       </div>
+       <p class="header-alert-news">Super Value Deals - Save more with coupons</p>
+       <a href="login-register.html" class="header-top-action">Log In / Sign Up</a>
+     </div>
+    </div>
+    <nav class="nav container">
+      <a href="pro.html" class="nav-logo">
+        <div class="nav-logo-img"></div>
+        </a>
+      <div class="nav-menu" id="nav-menu">
+        <div class="nav-menu-top">
+          <a href="pro.html" class="nav-menu-logo">
+          
+          </a>
+          <div class="nav-close" id="nav-close">
+            <i class="fi fi-rs-cross-small"></i>
+          </div>
+        </div>
+        
+        <div class="profileIcon">
+          
+          <a href="login-register.html">
+           <img src="imgs/user.svg" class="profileIconImg">  
+          </a>
+        </div>
+        <div>
+          
+        </div>
+        <div class="dark">
+          <button class="darkBtn darkO">
+            <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+
+          </button>
+        </div>
+        
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="pro.html" class="nav-link active-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="login-register.html" class="nav-link">Account</a>
+          </li>
+          <li class="nav-item">
+            <a href="compare.html" class="nav-link">Compare</a>
+          </li>
+          
+        </ul>
+        <div class="header-search">
+          <input type="text" 
+          placeholder="Search for items..." 
+          class="form-input"/>
+          
+          <button class="search-btn">
+            <div class="search-btnM"></div>
+          </button>
+        </div>
+      </div>
+      <div class="header-user-actions">
+        <a href="wishlist.html" class="header-action-btn">
+          <div class="header-action-btn-w"></div>
+          <span class="count  wishlistNums"></span>
+        </a>
+        <a href="newCart.html" class="header-action-btn">
+          <div class="header-action-btn-s"></div>
+          <span class="count  cartNumbers"></span>
+        </a>
+        <div class="header-action-btn nav-toggle" id="nav-toggle">
+         <div class="header-action-btn-m"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--main------->
+  <main class="main">
+    <!---------home----->
+    <section class="home section-lg">
+     <div class="home-container container grid">
+       <div class="home-content">
+         <span class="home-subtitle">Hot promotions</span>
+         <h1 class="home-title">Fashion Trending <span>Great Collection</span></h1>
+         <p class="home-description">Save more with coupons & up to 20% off</p>
+         <a href="shop.html" class="btn">Shop Now</a>
+       </div> 
+       
+       <img data-src="Imgs/main-1.png" alt="" class="home-img lazyload" />
+     </div>
+    </section>
+    <!---------categories---------->
+    <section class="categories container section">
+      <h3 class="section-title"><span>Popular </span>Categories</h3>
+      <div class="categories-container swiper">
+        <div class="swiper-wrapper">
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="Imgs/shirts.jpeg" alt="" class="category-img" loading="lazy"/>
+            <h3 class="category-title">Shirts</h3>
+          </a>
+          <a href="shop.html" class="category-item swiper-slide">
+            <img src="Imgs/skirt.jpeg" alt="" class="category-img" loading="lazy"/>
+            <h3 class="category-title">Skirts</h3> </a>
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="Imgs/tops.jpeg" alt="" class="category-img" loading="lazy"/>
+              <h3 class="category-title">Tops</h3> </a>
+              <a href="shop.html" class="category-item swiper-slide">
+                <img src="Imgs/jumpsuit.jpeg" alt="" class="category-img" loading="lazy"/>
+                <h3 class="category-title">Jumpsuits</h3> </a>
+                <a href="shop.html" class="category-item swiper-slide">
+                  <img src="Imgs/shoes.jpeg" alt="" class="category-img" loading="lazy"/>
+                  <h3 class="category-title">Shoes</h3>
+               </a>
+               <a href="shop.html" class="category-item swiper-slide">
+                  <img src="Imgs/jeans.jpeg" alt="" class="category-img" loading="lazy"/>
+                  <h3 class="category-title">Jeans</h3>
+               </a>
+               <a href="shop.html" class="category-item swiper-slide">
+                  <img src="Imgs/blouse.jpeg" alt="" class="category-img" loading="lazy"/>
+                  <h3 class="category-title">Blouses</h3>
+               </a>
+               <a href="shop.html" class="category-item swiper-slide">
+                  <img src="Imgs/blazer.jpeg" alt="" class="category-img" loading="lazy"/>
+                  <h3 class="category-title">Blazers</h3>
+               </a>
+         </div>
+         <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+         <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+      </div>
+    </section>
+    <!----------products - - - - -->
+    <section class="products section container">
+      <div class="tab-btns">
+        <span class="tab-btn active-tab" data-target="#featured">Featured</span>
+        <span class="tab-btn" data-target="#popular">Popular</span>
+        <span class="tab-btn" data-target="#new-added">New added</span>
+      </div>
+      <div class="tab-items">
+          
+          <div class="tab-item active-tab" content id="featured">
+          <div class="products-container grid producto">
+           
+          </div>
+        </div> 
+         
+        
+        <div class="tab-item" content id="popular">
+          <div class="products-container grid producto2">
+          
+          </div>
+        </div>
+
+        <div class="tab-item" content id="new-added">
+          <div class="products-container grid producto3">
+            
+          </div>
+
+        </div>
+   
+        
+      </div>
+    </section>
+    <!----------Deals------------>
+    <section class="deals section">
+      <div class="deals-container container grid">
+        <div class="deals-item">
+          <div class="deals-group">
+            <h3 class="deals-brand">Deal of the day</h3>
+            <span class="deals-category">limited quantities.</span>
+          </div>
+          
+          <h4 class="deals-title">Summer Collection New Modren Design</h4>
+          <div class="deals-price flex">
+            <span class="new-price">$32</span>
+            <span class="old-price">$39.9</span>
+          </div>
+          <div class="deals-group">
+            <p class="deals-countdown-text">Hurry Up! Offer End In:</p>
+            <div class="countdown">
+              <div class="countdown-amount">
+                <p id="days" class="countdown-period">02</p>
+                <span class="unit">Days</span>
+              </div>
+              
+              <div class="countdown-amount">
+                <p id="hours" class="countdown-period">22</p>
+                <span class="unit">Hours</span>
+              </div>
+              
+              <div class="countdown-amount">
+                <p id="minutes" class="countdown-period">57</p>
+                <span class="unit">Mins</span>
+              </div>
+              
+              <div class="countdown-amount">
+                <p id="seconds" class="countdown-period">27</p>
+                <span class="unit">sec</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="deals-btn">
+            <a href="details.html" class="btn btn-md">Shop Now</a>
+          </div>
+          
+        </div>
+        
+        <div class="deals-item">
+          <div class="deals-group">
+            <h3 class="deals-brand">Women Clothing</h3>
+            <span class="deals-category">Bag&Dress</span>
+          </div>
+        
+          <h4 class="deals-title">Try someting new on vacation</h4>
+          <div class="deals-price flex">
+            <span class="new-price">$52</span>
+            <span class="old-price">$69.9</span>
+          </div>
+          <div class="deals-group">
+            <p class="deals-countdown-text">Hurry Up! Offer End In:</p>
+            <div class="countdown">
+              <div class="countdown-amount">
+                <p id="days-1" class="countdown-period">3</p>
+                <span class="unit">Days</span>
+              </div>
+              
+              <div class="countdown-amount">
+                <p id="hours-1" class="countdown-period">18</p>
+                <span class="unit">Hours</span>
+              </div>
+              
+              <div class="countdown-amount">
+                <p id="minutes-1" class="countdown-period">57</p>
+                <span class="unit">Mins</span>
+              </div>
+              
+              <div class="countdown-amount">
+                <p id="seconds-1" class="countdown-period">27</p>
+                <span class="unit">sec</span>
+              </div>
+        
+            </div>
+          </div>
+        
+          <div class="deals-btn">
+            <a href="details.html" class="btn btn-md">Shop Now</a>
+          </div>
+        
+        </div>
+        
+      </div>
+    </section>
+    <!---------new arrivals------>
+    <section class="new-arrivals container section">
+      <h3 class="section-title"><span>New</span> Arrivals</h3>
+      <div class="new-container swiper">
+        <div class="swiper-wrapper">
+           <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/blazer.jpeg" alt="" class="product-img default">
+                  
+                  <img src="Imgs/blazer2.jpeg" alt="" class="product-img hover">
+                </a>
+                
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+                  
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                  
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-pink">Hot</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html" >
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#"class="action-btn cart-btn" aria-label="Add To Cart" id="item25">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/jeans.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/jumpsuit.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-green">Hot</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item26">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/skirt.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/skirt2.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-orange">Hot</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item27">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/shoes.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/shoes2.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-blue">Hot</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item28">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/blazer.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/blazer2.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-pink">-22%</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item29">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/tops.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/blazer2.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-pink">30%</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item30">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/jeans.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/jeans2.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+                <div class="product-badge light-green">Hot</div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item31">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="Imgs/shirts.jpeg" alt="" class="product-img default">
+            
+                  <img src="Imgs/shirts.jpeg" alt="" class="product-img hover">
+                </a>
+            
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+            
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="product-content">
+                <span class="product-category">Clothing </span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Blazers</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">$57</span>
+                  <span class="old-price">$62.25</span>
+                </div>
+                <a href="#" class="action-btn cart-btn" aria-label="Add To Cart" id="item32">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>    
+         </div>
+         <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+         <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+      </div>
+    </section>
+    <!------------showcase------->
+    <section class="showcase section">
+      <div class="showcase-container container grid">
+        <div class="showcase-wrapper">
+          <h3 class="section-title">Hot Releases</h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/tops.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$23.9</span>
+                <span class="old-price">$34.5</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/shirts.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$23.9</span>
+                <span class="old-price">$34.5</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/blouse.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$23.9</span>
+                <span class="old-price">$34.5</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="showcase-wrapper">
+          <h3 class="section-title">Deals & Outlet</h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/shoes.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$13.9</span>
+                <span class="old-price">$30.5</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/jeans.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$23.9</span>
+                <span class="old-price">$34.5</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/blouse2.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$23.9</span>
+                <span class="old-price">$34.5</span>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <div class="showcase-wrapper">
+          <h3 class="section-title">Top Selling</h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/skirt.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$7</span>
+                <span class="old-price">$14.5</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/skirt2.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$13.9</span>
+                <span class="old-price">$14.5</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/blouse2.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$23.9</span>
+                <span class="old-price">$34.5</span>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        
+        <div class="showcase-wrapper">
+          <h3 class="section-title">Trendy</h3>
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/jumpsuit.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$30.9</span>
+                <span class="old-price">$32.5</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/blouse2.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$27.9</span>
+                <span class="old-price">$33.5</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="showcase-item">
+            <a href="details.html" class="showcase-img-box">
+              <img src="Imgs/tops.jpeg" alt="" class="showcase-img">
+            </a>
+            <div class="showcase-content">
+              <a href="details.html">
+                <h4 class="showcase-title">Floral Print Casual Cotton Dress</h4>
+              </a>
+              <div class="showcase-price flex">
+                <span class="new-price">$29.9</span>
+                <span class="old-price">$40.5</span>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        
+      </div>
+    </section>
+    <!-----(--(--newsletter---------->
+    <section class="newsletter section home-newsletter">
+      <div class="newsletter-container container grid">
+        <h3 class="newsletter-title flex">
+          <div class="newsletter-icon"></div>
+          Sign up to Newsletter
+        </h3>
+        <p class="newsletter-discription">
+         ...and receive 25$ coupon for first shopping.
+        </p>
+        <form action="" class="newsletter-form">
+          <input type="text" placeholder="Enter your email" 
+          class="newsletter-input"/>
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+ <div class="topup">
+ <i class="fi fi-rr-angle-double-small-up" id="felo"></i> 
+  </div>
+
+  <!----------footer------------->
+  <footer class="footer container">
+   <div class="footer-container grid">
+     <div class="footer-content">
+       
+       <a href="pro.html" class="footer-logo">
+         <div class="footer-logo-img"></div>
+       </a>
+       <button class="darkBtn lighto">
+         <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+
+       </button>
+       <h3 class="footer-subtitle">Contact:</h3>
+       <p class="footer-discription">
+         <span>Address:</span>hay al-jazaaer, Mousal, Nenvah
+       </p>
+       <p class="footer-discription">
+         <span>Phone:</span>+9647809314498/+9647803622168
+       </p>
+       <p class="footer-discription">
+         <span>Working Hours:</span>09:00 - 18:00, Sun - Thrs
+       </p>
+       <div class="footer-social">
+         <h4 class="footer-subtitle">Follow Me</h4>
+         <div class="footer-social-links flex">
+           <a href="#" class="footer-social-icon"><i class="bx bxl-facebook"></i></a>
+           <a href="#" class="footer-social-icon"><i class="bx bxl-twitter"></i></a>
+           <a href="#" class="footer-social-icon"><i class="bx bxl-linkedin"></i></a>
+           <a href="#" class="footer-social-icon"><i class="bx bxl-skype"></i></a>
+         
+           </a>
+         </div> 
+       </div>
+     </div>
+     <div class="footer-content">
+       <h3 class="footer-title">Address</h3>
+       <ul class="footer-links">
+         <li><a href="" class="footer-link">About Us</a></li>
+         <li><a href="" class="footer-link">Delivery Informations</a></li>
+         <li><a href="" class="footer-link">Privcy Policy</a></li>
+         <li><a href="" class="footer-link">Terms & Conditions</a></li>
+         <li><a href="" class="footer-link">Contact Us</a></li>
+         <li><a href="" class="footer-link">Support Center</a></li>
+       </ul>
+     </div>
+     <div class="footer-content">
+       <h3 class="footer-title">My Account</h3>
+       <ul class="footer-links">
+         <li><a href="" class="footer-link">Sign In</a></li>
+         <li><a href="" class="footer-link">View Cart</a></li>
+         <li><a href="" class="footer-link">My Wishlist</a></li>
+         <li><a href="" class="footer-link">Track My Order</a></li>
+         <li><a href="" class="footer-link">Help</a></li>
+         <li><a href="" class="footer-link">Order</a></li>
+       </ul>
+     </div>
+     <div class="footer-content">
+       <h3 class="footer-title">Sucured Payment Gateways</h3>
+       <img src="Imgs/payment-method.png" alt="" class="payment-img">
+     </div>
+   </div>
+   <div class="footer-bottom">
+     <p class="copyright">&copy;2024 Mahmoud Ahmed</p>
+     
+   </div>
+  </footer>
+  
+  <!-- swiperjs-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-------main js---->
+<script src="main.js"></script>
+  <script src="Js/data.js"></script>
+  
+
+<!--------cart------>  
+  <script src="Js/products.js"></script>
+  <script src="Js/search.js"></script>
+<!-- - - -search - - - - - - -->  
+<script src="dark.js"></script>
+<script src="icon.js"></script>
+<script src="Js/search.js"></script>
+</body>
+</html>
